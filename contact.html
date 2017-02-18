@@ -1,0 +1,55 @@
+---
+layout: default
+
+title: contact
+---
+<nav id="navbar" class="navbar fixed-top navbar-inverse bg-inverse navbar-toggleable-sm transparent"
+    role="navigation">
+    <div class="container text-center my-auto">
+        <div>
+            <a href="{{site.baseurl}}" title="Homepage">
+                <img id="logo" src="{{site.baseurl}}/images/logo.png" style="width:100px; height:auto;" alt="Mars Liao">
+            </a>
+        </div>
+        <div id="menu" class="navbar-collapse">
+            <ul class="navbar-nav ml-auto transitions">
+                <li class="nav-item">
+                    <a href={{site.baseurl}} title="Home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{site.baseurl}}/collections" title="Collections" class="nav-link">Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{site.baseurl}}/art" title="Art" class="nav-link ">Art</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{site.baseurl}}/aboutme" title="About Me" class="nav-link ">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{site.baseurl}}/contact" title="Contact" class="nav-link nav-active">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="wrapper">
+    <div id="main" style="color:black;">
+        <div class="w3-content w3-center w3-padding">
+            <!-- Contact Section -->
+            <div class="w3-container w3-padding-32" id="contact">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+                <br><br>
+                <p>Email</p>
+                <p><a style="color:red;" href="mailto:marsliao.lcf@gmail.com?subject=website">marsliao.lcf@gmail.com</a>
+                </p>
+                <br>
+                <p>Instagram</p>
+                <p> <a style="color:red;" href="{{ site.social_urls.instagram }}">marsliao_official</a>
+                    <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram" style="font-size: 1em;">
+                        <span class="label">Instagram</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
