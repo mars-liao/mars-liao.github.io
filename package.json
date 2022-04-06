@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mars-liao/portfolio.git"
+    "url": "git+https://github.com/mars-liao/mars-liao.github.io.git"
   },
   "keywords": [
     "website",
@@ -17,9 +17,9 @@
   "author": "Mars Liao",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/mars-liao/portfolio/issues"
+    "url": "https://github.com/mars-liao/mars-liao.github.io/issues"
   },
-  "homepage": "https://github.com/mars-liao/portfolio#readme",
+  "homepage": "https://github.com/mars-liao/mars-liao.github.io#readme",
   "devDependencies": {
     "del": "^4.0.2",
     "gulp": "^4.0.2",
